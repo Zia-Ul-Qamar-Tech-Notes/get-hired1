@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ZIARAH (All In One)</title>
+
+
+    <!--  Bootstrap css file  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel='icon' href='favicon.ico' type='image/x-icon'>
+	<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'>
+    <!--  font awesome icons  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-LKp6fV7vmsjKsdZDuiI/09p9NUgRnEa1hjN7H2n08hqNl7jK8BZuV7nCm1cXSKjvih8/+naeVfcGFWlha68kyQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+    <!--  custom css file  -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!--  Responsive css file  -->
+    <link rel="stylesheet" href="./css/responsive.css">
+
+</head>
+
+<body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+
+</script>
+
+  <div id='stars'></div>
+      <div id='stars2'></div>
+      <div id='stars3'></div>
+
+
+    <!--  ======================= Start Header Area ============================== -->
+
+    <header class="header_area">
+        <div class="main-menu">
+
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="logo"  style="width:70px; height: 70px;"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mr-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                        	<a class="nav-link" href="#about">about</a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">portfolio</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!--  ======================= End Header Area ============================== -->
+
+    <!--  ======================= Start Main Area ================================ -->
+    <main class="site-main">
+
+
+        <!--  ======================= Start Banner Area =======================  -->
+        <section class="site-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 site-title">
+                        <h3 class="title-text">Hey</h3>
+                        <h1 class="title-text text-uppercase">I am ZIA from ZIARAH</h1>
+                        <h4 class="title-text text-uppercase">*CEO and Senior Web Develpor And Programmer*<br>                               *Of ZIARAH*                               </h4>
+                        <div class="site-buttons">
+                            <div class="d-flex flex-row flex-wrap">
+                              <a href="apply.html"><button type="button" class="btn button primary-button mr-4 text-uppercase">Get Hired
+                                    </button></a>
+                                    <a href="#portfolio"><button type="button" class="btn button primary-button mr-4 text-uppercase">Projects
+                                    </button></a>
+                                    <a href="Jobs.php"><button type="button" class="btn button primary-button mr-4 text-uppercase">Available Jobs
+                                    </button></a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 banner-image">
+                        <img src="./img/logo.png" alt="banner-img" class="img-fluid">
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  ======================= End Banner Area =======================  -->
+
+        <!--  ========================= About Area ==========================  -->
+
+        <section class="about-area" id="about">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="about-image">
+                            <img src="./img/logo.png" alt="About us" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 about-title">
+                        <h2 class="text-uppercase pt-5">
+                            <span>Let me</span>
+                            <span>introduce</span>
+                            <span>myself</span>
+                        </h2>
+                        <div class="paragraph py-4 w-75">
+                            <p class="para">
+                             This company was founded by me and a small group of my friends.<br>I'm a self-driven web developer with over four years of experience and a particular interest in making mobile friendly websites.
+                            </p>
+                            <p class="para">
+                              I love the changing nature of the web. It's very fulfilling to be in a field that allows me to continuously grow and pick up more skills. There's always something new learn.
+
+I've been involved in all stages of the web development process, including design, content creation, front-end development, back-end development, testing, deployment, and tracking.
+                            </p>
+                        </div>
+                      <a href="facebook.com"><button type="button" class="btn button primary-button text-uppercase">Meet Us</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  ========================= End About Area ==========================  -->
+
+        <!--  ======================== Brand Area ==============================  -->
+
+        <section class="brand-area" id="skills">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-12 col-md-12">
+                        <div class="first-row row">
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/brands/logo1.png" alt="Brand-1 ">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/brands/logo2.png" alt="Brand-2 ">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/brands/logo3.png" alt="Brand-3 ">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/brands/logo4.png" alt="Brand-4">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/brands/logo5.png" alt="Brand-5 ">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/brands/logo6.png" alt="Brand-6">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/brands/logo7.png" alt="Brand-7 ">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/brands/logo8.png" alt="Brand-8 ">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/brands/logo9.png" alt="Brand-9">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-12 col-md-12">
+                        <div class="experience-area">
+                            <div class="d-flex flex-row years-area">
+                                <h2 class="p-3 years">4</h2>
+                                <h2>
+                                    <span>Years</span>
+                                    <span>Experience</span>
+                                    <span>Working</span>
+                                </h2>
+                            </div>
+                            <div class="d-flex flex-row flex-wrap call-area">
+                                <span><i class="fas fa-quote-left fa-3x px-3"></i></span>
+                                <div class="call-now">
+                                  <div class="button" id="button-5">
+                                    <div id="translate"></div>
+                                    <a href="#">get a quote</a>
+                                   </div>
+                                </div>
+                            </div>
+                            <div class="bg-panel"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  ======================== End Brand Area ==============================  -->
+
+        <!--  ====================== Start Services Area =============================  -->
+
+
+
+  <section class="c-section" id="services">
+      <h2 class="c-section__title"><span>Our Services</span></h2>
+      <ul class="c-services">
+          <li class="c-services__item">
+          <h3>Responsive Web Design</h3>
+          <p>We leverage the concept of mobile-first design. Through our work, we focus on designing an experience that works across different screen sizes.</p>
+          </li>
+          <li class="c-services__item">
+          <h3>UX Auditing</h3>
+          <p>If you are unsure of how your app behaves, we can help by doing a detailed UX audit that will highlight most of the issues in your product. From there, we can take it further and fix all issues.</p>
+          </li>
+          <li class="c-services__item">
+          <h3>Front End Development</h3>
+          <p>We are Front End masters with a deep focus on HTML, CSS. The result of our work is a responsive, accessible, and performant websites. Either you have the design ready and want us to code it, or you want us to do both design and code, we&rsquo;re happy to do so.</p>
+          </li>
+          <li class="c-services__item">
+          <h3>UX Consultation</h3>
+          <p>If you don&rsquo;t know what kind of service to request from us, don&rsquo;t worry. We can help and see what fits your business and your budget.</p>
+          </li>
+          <li class="c-services__item">
+          <h3>Mobile Apps Design</h3>
+          <p>To reach more customers and the goals of your business, a mobile application is necessary these days. We will work on the app design from scratch to final tested prototype.</p>
+          </li>
+          <li class="c-services__item">
+          <h3>UX Research</h3>
+          <p>It&rsquo;s important to research deeply for the product you want to build. We help in that by defining the user audience, working on user stories, competitive analysis and much more. </p>
+          </li>
+      </ul>
+      </section>
+
+
+        <!--  ====================== End Services Area =============================  -->
+
+        <!--  ======================= Project Area =============================  -->
+
+        <section class="project-area" id="portfolio">
+            <div class="container">
+                <div class="project-title pb-5">
+                    <h1 class="text-uppercase title-h1">Recently Done Project</h1>
+                    <h1 class="text-uppercase title-h1">Quality Work</h1>
+                </div>
+
+                <div class="button-group">
+                    <button type="button" class="active" id="btn1" data-filter="*">Work</button>
+
+                </div>
+
+                <div class="row grid">
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p1.jpg">
+                                    <img src="./img/portfolio/p1.jpg" alt="portfolio-1" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">MAX CAR</h4>
+                                <span class="text-secondary">Latest, Portfolio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p2.jpg">
+                                    <img src="./img/portfolio/p2.jpg" alt="portfolio-2" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Echoshop</h4>
+                                <span class="text-secondary">Popular, Portfolio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p3.jpg">
+                                    <img src="./img/portfolio/p3.jpg" alt="portfolio-3" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Tomsher</h4>
+                                <span class="text-secondary">Popular, Portfolio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p4.jpg">
+                                    <img src="./img/portfolio/p4.jpg" alt="portfolio-4" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Assignment Ace</h4>
+                                <span class="text-secondary">latest, Portfolio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p5.jpg">
+                                    <img src="./img/portfolio/p5.jpg" alt="portfolio-5" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Everst</h4>
+                                <span class="text-secondary">latest, Portfolio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p6.jpg">
+                                    <img src="./img/portfolio/p6.jpg" alt="portfolio-6" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Wattle Technologies</h4>
+                                <span class="text-secondary">Following, Portfolio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p7.jpg">
+                                    <img src="./img/portfolio/p7.jpg" alt="portfolio-7" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Assignment Help</h4>
+                                <span class="text-secondary">latest, Portfolio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p8.jpg">
+                                    <img src="./img/portfolio/p8.jpg" alt="portfolio-8" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Essay Writing</h4>
+                                <span class="text-secondary">latest, Portfolio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p9.jpg">
+                                    <img src="./img/portfolio/p9.jpg" alt="portfolio-9" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Hnd Assignments</h4>
+                                <span class="text-secondary">popular, Portfolio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p9.jpg">
+                                    <img src="./img/portfolio/p10.jpg" alt="portfolio-9" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Threads & Arts</h4>
+                                <span class="text-secondary">latest, Portfolio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p9.jpg">
+                                    <img src="./img/portfolio/p11.jpg" alt="portfolio-9" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Perfect Cv</h4>
+                                <span class="text-secondary">popular, Portfolio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p9.jpg">
+                                    <img src="./img/portfolio/p12.jpg" alt="portfolio-9" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Education</h4>
+                                <span class="text-secondary">latest, Portfolio</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  ======================= End Project Area =============================  -->
+
+        <!--  ======================== About Me Area ==============================  -->
+
+
+        <!--  ======================== End About Me Area ==============================  -->
+
+        <!--  ========================== Subscribe me Area ============================  -->
+
+        <!--  ========================== End Subscribe me Area ============================  -->
+
+
+    </main>
+    <!--  ======================= End Main Area ================================ -->
+
+    <footer class="footer-area" id="contact">
+        <div class="container">
+            <div class="">
+                <div class="site-logo text-center py-4">
+                    <a href="#"><img src="./img/logo.png" alt="logo" style="width:70px; height: 70px;"></a>
+                </div>
+                <div class="social text-center">
+                    <h5 class="text-uppercase">Follow us</h5>
+                    <a href="https://www.facebook.com/QamarUzZamanAdv/"><i class="fab fa-facebook" style="color: cadetblue;"></i></a>
+                    <a href="https://www.instagram.com/QamarUzZamanAdv/"><i class="fab fa-instagram" style="color: cadetblue;"></i></a>
+                    <a href="https://www.youtube.com/@QamarUzZamanAdv"><i class="fab fa-youtube" style="color: cadetblue;"></i></a>
+                    <a href="https://www.twitter.com/QamarUzZamanAdv/"><i class="fab fa-twitter" style="color: cadetblue;"></i></a>
+                </div>
+                <div class="copyrights text-center">
+                    <p class="para">
+                        Copyright ©2023 All rights reserved
+                        <a href="#"><span style="color: var(--primary-color);">ZIARAH </span></a>
+                            <br>Contact us<br>
+                            Email: ziaabdullah57@gmail.com
+                             
+
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <style>
+            
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+
+            .btn {
+              border: none;
+              color: white;
+              padding: 14px 28px;
+              font-size: 16px;
+              cursor: pointer;
+            }
+            
+            .success {background-color: #4CAF50;} /* Green */
+            .success:hover {background-color: #46a049;}
+            </style>
+    </footer>
+
+
+    <!--  Bootstrap js file  -->
+    <script src="./js/bootstrap.min.js"></script>
+
+
+    <!--  custom js file  -->
+    <!-- <script src="./js/main.js"></script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+
+
+</body>
+
+</html>
